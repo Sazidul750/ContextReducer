@@ -2,6 +2,7 @@ import React from 'react'
 import Users from './components/Users'
 import NewUsers from './components/NewUsers'
 import ContextProvider from './components/Contex'
+import Footer from './components/Footer'
 
 export default function App() {
 
@@ -11,6 +12,7 @@ export default function App() {
       <div className='App'>
       <NewUsers />
       <Users />
+      <Footer />
     </div>
   </ContextProvider>
   )

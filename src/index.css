@@ -12,7 +12,7 @@ code {
     monospace;
 }
 h1{
-  background-color: #bdb3b3;
+  background-color: #e6dada;
   padding: 20px;
   margin: 20px;
   
@@ -68,4 +68,11 @@ input{
   background-color: #e9c1c1;
   padding: 20px;
   border-radius: 20px;
+}
+
+.footer{
+  text-align: center;
+  padding: 1px 0px;
+  margin: 200px 20px 10px;
+  background-color: #d7ddc8;
 }
