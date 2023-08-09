@@ -1,8 +1,8 @@
 
 export const initialState={
     users:[
-        {id:1,userName:'sazidul islam'},
-        {id:2,userName:' khan'},
+        {id:1,userName:'Sazidul Islam'},
+        {id:2,userName:'Mussaraf Hossain'},
     ]
 }
 
