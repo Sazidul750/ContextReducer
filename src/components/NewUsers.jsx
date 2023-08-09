@@ -16,7 +16,7 @@ function NewUsers() {
   }
   return (
     <div className='NewUser'>
-      <h1>User Resgistration</h1>
+      <h1>User Add Form</h1>
       <form onSubmit={handelSubmit} >
         <input type="text" placeholder='Add Your Name' value={userName} onChange={handleChange} name="" id="" required />
         <button className='btn' type='submit'>Add User</button>
