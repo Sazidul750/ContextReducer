@@ -15,10 +15,11 @@ function NewUsers() {
     setUserName('')
   }
   return (
-    <div>
+    <div className='NewUser'>
+      <h1>User Resgestration</h1>
       <form onSubmit={handelSubmit} >
-        <input type="text" value={userName} onChange={handleChange} name="" id="" required />
-        <button type='submit'>Add User</button>
+        <input type="text" placeholder='Add Your Name' value={userName} onChange={handleChange} name="" id="" required />
+        <button className='btn' type='submit'>Add User</button>
       </form>
     </div>
   )

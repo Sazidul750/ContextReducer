@@ -11,6 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.NewUser{
+  text-align: center;
+}
+input{
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.btn {
+  height: 44px;
+  border-radius: 20px;
+  background-color: #f1e59d;
+}
 .users{
   display: grid;
   grid-template-columns: repeat(3,1fr);
