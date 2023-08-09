@@ -8,7 +8,7 @@ export default function App() {
  
   return (
   <ContextProvider>
-      <div>
+      <div className='App'>
       <NewUsers />
       <Users />
     </div>

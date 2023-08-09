@@ -13,7 +13,7 @@ export default function User({user}) {
     <div className='user'>
       <p>{id}</p>
       <h3>{userName}</h3>
-      <button onClick={()=>handleDelete(id)}>Delete</button>
+      <button className='delete-btn' onClick={()=>handleDelete(id)}>Delete</button>
     </div>
   )
 }
