@@ -7,7 +7,7 @@ function Users() {
   return (
     <div className='users'>
       {
-        users.map((user)=><User  user={user}  key={user.id} />)
+       users.map((user)=><User  user={user}  key={user.id} />)
       }
     </div>
   )

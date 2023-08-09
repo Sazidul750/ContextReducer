@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { UseUserContext } from './useUserContext'
 
 function NewUsers() {
-  const {setUsers}=UseUserContext()
+  const {addUser}=UseUserContext()
   const [userName,setUserName]=useState('')
   const handleChange=(e)=>{
     setUserName(e.target.value)
@@ -11,7 +11,7 @@ function NewUsers() {
     e.preventDefault()
     const newUser={id:new Date().getTime().toString(),userName:userName}
     setUserName(newUser)
-    setUsers(prevState=>[...prevState,newUser])
+    addUser(newUser)
     setUserName('')
   }
   return (

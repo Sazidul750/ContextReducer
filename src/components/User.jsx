@@ -3,12 +3,11 @@ import React from 'react'
 import { UseUserContext } from './useUserContext'
 
 export default function User({user}) {
-  const {users,setUsers}=UseUserContext()
+  const {deleteUser}=UseUserContext()
   const {id,userName}=user
  
   const handleDelete=(id)=>{
-    const filterUser=users.filter(user=>user.id!==id)
-    setUsers(filterUser)
+    deleteUser(id)
   }
   return (
     <div className='user'>
