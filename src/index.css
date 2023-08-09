@@ -14,7 +14,7 @@ code {
 h1{
   background-color: #e6dada;
   padding: 20px;
-  margin: 20px;
+  margin: 10px 20px 0px 20px;
   
 }
 .NewUser{
@@ -25,7 +25,7 @@ input{
   height: 25px;
   border-radius: 20px;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 10px 0px 0px;
   border: none;
   background-color: #bfd9e9;
 }
@@ -46,9 +46,9 @@ input{
 .users{
   padding: 1rem;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   text-align: center;
-  margin: 10px;
+  
  
 }
 
@@ -73,6 +73,6 @@ input{
 .footer{
   text-align: center;
   padding: 1px 0px;
-  margin: 200px 20px 10px;
+  margin: 120px 20px 10px 20px;
   background-color: #d7ddc8;
 }
